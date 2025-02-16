@@ -38,9 +38,12 @@ int main(){
     //minimum 8 karakter
     int number;
     scanf("%d", &number);
-    for (int i = 0; i < number +1; i++){
+    for (int i = 0; i < number; i++){
         int r = rand() % 4;
         if (r == 1){
+            printf("%c", nb());
+        }
+        else if (r==0){
             printf("%c", nb());
         }
         else if (r == 2){
