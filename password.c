@@ -35,7 +35,6 @@ int main(){
     //printf("%c", spec());
     //random szám
     //printf("%d", nmb());    
-    //minimum 8 karakter
     int number;
     scanf("%d", &number);
     for (int i = 0; i < number; i++){
